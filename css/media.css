@@ -1,0 +1,127 @@
+@media screen and (max-width: 1920px) {
+   
+}
+
+
+@media screen and (max-width: 1600px) {
+   
+}
+
+
+@media screen and (max-width: 1368px) {
+    nav li {
+        padding: 1rem;
+    }
+}
+
+
+@media screen and (max-width: 960px) {
+    
+}
+
+
+@media screen and (max-width: 768px) {
+    .subscribe {
+        height: auto;
+        padding: 40% 0;
+    }
+    .services-text p {
+        font-size: 13pt;
+    }
+    .specialty-text p {
+        font-size: 13pt;
+    }
+    .specialty-text {
+        left: 10%;
+    }
+    .services {
+        padding: 50% 0;
+    }
+    .specialty{
+        padding: 20% 0;
+    }
+    .our-community .container {
+        flex-direction: column;
+    }
+    .download__btns {
+        flex-direction: column;
+    }
+    .download__btn:first-child {
+        margin-right: 0;
+    }
+    .download__btn {
+        margin-top: 2%;
+    }
+    .specialty-img img {
+        width: 100%;
+      }
+}
+
+
+@media screen and (max-width: 690px) {
+    nav {
+        padding-top: 2rem;
+        padding-right: 1rem;
+        text-align: right;
+    }
+    nav a {
+        font-size: 14pt;
+    }
+    nav ul li:nth-of-type(3) {
+        display: none;
+    }
+   nav label{
+        display: inline-block;
+    }
+    nav > ul {
+        display: none;
+    }
+    input[type="checkbox"]:checked ~ label + ul {
+        display: block;
+    }
+    
+}
+
+
+@media screen and (max-width: 480px) {
+    .services {
+        padding: 80% 0;
+    }
+    .specialty{
+        padding: 40% 0;
+    }
+    .specialty-text {
+        left: 2%;
+    }
+    .button {
+        width: 150px;
+        height: 30px;
+        font-size: 9pt;
+    }
+    .services-text {
+        width: 100%;
+        position: absolute;
+        top: 50%;
+    }
+    .subscribe h2 {
+        font-size: 14pt;
+    }
+    input[type="text"] {
+        width: 185px;
+        height: 30px;
+        font-size: 13px;
+        margin-bottom: 25px;
+        border-radius: 4px;
+        padding-left: 0;
+    }
+    .check__btn {
+        width: 30px;
+        height: 30px;
+    }
+    .download__btn {
+        font-size: 14pt;
+        padding: 5px;
+        width: 200px;
+        height: 40px;
+    }
+}

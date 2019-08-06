@@ -1,0 +1,352 @@
+*{
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Muli', sans-serif;
+  font-weight: normal;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-weight: normal;
+}
+.container{
+  width: 90%;
+  margin: 0 auto;
+}
+a {
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+
+
+
+/* header */
+.header{
+  background: url(../img/header-bg.png) no-repeat center ;
+  background-size: cover;
+  position: relative;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  height: 100vh;
+  width: 100%;
+}
+nav ul{
+  text-align: center;
+}
+nav li{
+  display: inline;
+  padding: 5rem;
+}
+nav a{
+  font-size: 17pt;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #fff;
+  text-decoration: none;
+}
+.header-title{
+  text-align: center;
+}
+.header-title h2 {
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 28pt;
+}
+.header-title p {
+  color: #fff;
+  font-size: 18pt;
+}
+.header-social{
+  text-align: center;
+  margin-bottom: 2%;
+}
+.main-button {
+  background: #16a085;
+  width: 170px;
+  height: 50px;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 10pt;
+  border: 0;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.7s all ease;
+}
+.main-button:hover{
+  background: #fff;
+  color: #16a085;
+}
+.button {
+  background: #16a085;
+  width: 170px;
+  height: 50px;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 10pt;
+  border: 0;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.7s all ease;
+}
+input[type="checkbox"] {
+  display: none;
+}
+nav label {    
+  display: none;
+  padding: 5px 10px;
+  color: #fff;
+  cursor: pointer;
+  transition: 0.3s all ease-in;
+}
+input[type="checkbox"] {
+  display: none;
+}
+.navigation label {    
+  display: none;
+  border: 1px solid #fff;   
+  padding: 5px 10px;
+  cursor: pointer;
+  transition: 0.3s all ease-in;
+}
+
+
+/* services */
+.services {
+  background:url(../img/services-bg.png) no-repeat center bottom;
+  position: relative;
+  background-size: cover;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30% 0;
+}
+.services  .container {
+  margin: 0 auto;
+}
+.services-text {
+  width: 50%;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translate( 0, -50%);
+  -moz-transform: translate( 0, -50%);
+  -ms-transform: translate( 0, -50%);
+  -o-transform: translate( 0, -50%);
+  transform: translate( 0, -50%);
+}
+.services-text h2 {
+  font-size: 19pt;
+  color: #16a085;
+}
+.services-text p {
+  font-size: 16pt;
+  font-weight: normal;
+}
+
+
+/* specialty */
+.specialty  .container {
+  margin: 0 auto;
+  height: auto;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  position: relative;
+}
+.specialty-img{
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+.specialty-text {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translate( 0, -50%);
+  -moz-transform: translate( 0, -50%);
+  -ms-transform: translate( 0, -50%);
+  -o-transform: translate( 0, -50%);
+  transform: translate( 0, -50%);
+}
+.specialty-img img {
+  /* width: 100%; */
+  height: auto;
+}
+.specialty-text h2{
+  padding-bottom: 5%;
+  font-size: 19pt;
+  color: #16a085;
+  text-transform: uppercase;
+}
+.specialty-text p{
+  font-size: 16pt;
+  color: #6c6c6c;
+  padding-bottom: 5%;
+}
+
+
+/* our-community */
+.our-community {
+  background: #f5f6f7;
+  padding: 7% 0;
+}
+.our-community  .container {
+  height: auto;
+  margin: 0 auto;
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  align-items: center;
+}
+.community-text {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.community-text h2 {
+  font-size: 18pt;
+  color: #373737;
+  text-transform: uppercase;
+}
+.community-text p {
+  font-size: 15pt;
+  color: #6a6a6a;
+}
+.community-item img {
+  width: 100%;
+  height: auto;
+}
+
+/* subscribe */
+.subscribe{
+  background: url(../img/subscribe-bg.png) no-repeat center bottom;
+  position: relative;
+  background-size: cover;
+  height: 100vh;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.subscribe h2 {
+  font-size: 22pt;
+  color: #fff;
+  text-transform: uppercase;
+}
+form {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+input[type="text"] {
+  width: 285px;
+  height:60px;
+  font-size: 18px;
+  margin-bottom: 25px;
+  border-radius: 4px;
+  padding-left: 10px;
+} 
+.check__btn {
+  background: #16a085;
+  width: 60px;
+  height:60px;
+  border: none;
+}
+
+
+/* download */
+.download{
+  background: #f5f6f7;
+  padding: 7% 0;
+}
+.download .container {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+}
+.download__title {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+}
+.download__title h2{
+  font-size: 20pt;
+  color: #000000;
+  text-transform: uppercase;
+}
+.download__title p {
+  font-size: 16pt;
+  color: #6e6d6d;
+}
+.download__btns{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.download__btn {
+  background: #1abc9c;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 18pt;
+  padding: 15px;
+  width: 240px;
+  height: 60px;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s all ease;
+  border-radius: 5px;
+}
+.download__btn:first-child {
+  margin-right: 1%;
+}
+.download__btn:hover{
+  background: #118a72;
+  border-radius: 25px;
+}
+
+
+/* footer */
+footer {
+  height: auto;
+  padding: 40px 0;
+}
+.footer-nav ul {
+  padding: 0;
+  margin: 0;
+  padding-bottom: 1%;
+  display: flex;
+  text-align: start;
+  align-items: center;
+  justify-content: start;
+}
+.footer-nav a {
+  padding-right: 0.5rem;
+  text-decoration: none;
+  color: #080808;
+  text-transform: uppercase;
+  font-size: 14pt;
+  cursor: pointer;
+}
+.footer-nav span {
+  font-size: 14pt;
+  color: #32caac;
+}
+.copyright {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: space-between;
+}
